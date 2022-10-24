@@ -28,6 +28,8 @@
 # Basic Configuration
 ################################################################################
 
+MTB_TYPE=COMBINED
+
 # Target board/hardware (BSP).
 # To change the target, it is recommended to use the Library manager
 # ('make modlibs' from command line), which will also update Eclipse IDE launch
@@ -79,10 +81,10 @@ VERBOSE=
 # ... then code in directories named COMPONENT_foo and COMPONENT_bar will be
 # added to the build
 #
-COMPONENTS=CUSTOM_DESIGN_MODUS
+COMPONENTS=
 
 # Like COMPONENTS, but disable optional code that was enabled by default.
-DISABLE_COMPONENTS=BSP_DESIGN_MODUS
+DISABLE_COMPONENTS=
 
 # By default the build system automatically looks in the Makefile's directory
 # tree for source code and builds it. The SOURCES variable can be used to
