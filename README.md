@@ -4,7 +4,7 @@ The XMC1000 family of devices provides a temperature sensor (DTS) peripheral whi
 
 [View this README on GitHub.](https://github.com/Infineon/mtb-example-xmc-tse-calc-temperature)
 
-[Provide feedback on this code example.](https://cypress.co1.qualtrics.com/jfe/form/SV_1NTns53sK2yiljn?Q_EED=eyJVbmlxdWUgRG9jIElkIjoiQ0UyMzI2NjgiLCJTcGVjIE51bWJlciI6IjAwMi0zMjY2OCIsIkRvYyBUaXRsZSI6IlhNQyZ0cmFkZTsgTUNVOiBUU0UgY2FsYyB0ZW1wZXJhdHVyZSIsInJpZCI6ImFydmkiLCJEb2MgdmVyc2lvbiI6IjIuMC4wIiwiRG9jIExhbmd1YWdlIjoiRW5nbGlzaCIsIkRvYyBEaXZpc2lvbiI6Ik1DRCIsIkRvYyBCVSI6IklDVyIsIkRvYyBGYW1pbHkiOiJOL0EifQ==)
+[Provide feedback on this code example.](https://cypress.co1.qualtrics.com/jfe/form/SV_1NTns53sK2yiljn?Q_EED=eyJVbmlxdWUgRG9jIElkIjoiQ0UyMzI2NjgiLCJTcGVjIE51bWJlciI6IjAwMi0zMjY2OCIsIkRvYyBUaXRsZSI6IlhNQyZ0cmFkZTsgTUNVOiBUU0UgY2FsYyB0ZW1wZXJhdHVyZSIsInJpZCI6ImFydmkiLCJEb2MgdmVyc2lvbiI6IjIuMS4wIiwiRG9jIExhbmd1YWdlIjoiRW5nbGlzaCIsIkRvYyBEaXZpc2lvbiI6Ik1DRCIsIkRvYyBCVSI6IklDVyIsIkRvYyBGYW1pbHkiOiJOL0EifQ==)
 
 ## Requirements
 
@@ -21,6 +21,9 @@ The XMC1000 family of devices provides a temperature sensor (DTS) peripheral whi
 
 ## Supported kits (make variable 'TARGET')
 
+- [XMC1100 boot kit](https://www.infineon.com/cms/en/product/evaluation-boards/kit_xmc11_boot_001/) (`TARGET_KIT_XMC11_BOOT_001`)
+- [XMC1200 boot kit](https://www.infineon.com/cms/en/product/evaluation-boards/kit_xmc12_boot_001/) (`TARGET_KIT_XMC12_BOOT_001`)
+- [XMC1300 boot kit](https://www.infineon.com/cms/en/product/evaluation-boards/kit_xmc13_boot_001/) (`TARGET_KIT_XMC13_BOOT_001`)
 - [XMC1400 boot kit](https://www.infineon.com/cms/en/product/evaluation-boards/kit_xmc14_boot_001/) (`KIT_XMC14_BOOT_001`) - Default value of `TARGET`
 
 ## Hardware setup
@@ -198,6 +201,7 @@ Document title: *CE232668* - *XMC&trade; MCU: TSE calc temperature*
  | 1.0.0   | New code example      |
  | 1.1.0   | Added support for new kits |
  | 2.0.0   | Updated to support ModusToolbox&trade; software v3.0; CE will not be backwards compatible with previous versions of ModusToolbox&trade; software. |
+ | 2.1.0   | Added support for new kits |
 ------
 
 All other trademarks or registered trademarks referenced herein are the property of their respective owners.
