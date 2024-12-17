@@ -72,7 +72,7 @@ uint8_t data[50];
 void SysTick_Handler(void)
 {
     static uint32_t ticks = 0U;
-    uint32_t temp_C = 0;
+    unsigned long temp_C = 0;
     uint32_t temp_k = 0;
     uint32_t index;
     ++ticks;
